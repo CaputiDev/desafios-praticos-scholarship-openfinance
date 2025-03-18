@@ -16,5 +16,10 @@ function executarSoma() {
     const input = document.getElementById('inputVetor').value;
     const vetor = input.split(',').map(num => parseFloat(num.trim()));
     const resultado = somarVetor(vetor);
+    if(!resultado){
+        document.getElementById('resultado').innerText = "Valor inválido detectado";
+    }else{
+    
     document.getElementById('resultado').innerText = 'Resultado: ' + resultado;
+}
 }
