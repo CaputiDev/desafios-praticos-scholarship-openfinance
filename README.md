@@ -1,6 +1,6 @@
 # Desafios de Programação em JavaScript - Scholarship OpenFinance
 
-Este repositório contém soluções para desafios de programação em JavaScript, realizados durante o programa **Scholarship OpenFinance**.
+Este repositório contém soluções para desafios de programação em JavaScript, desenvolvidas durante o programa **Scholarship OpenFinance**.
 
 ### Desafios
 
@@ -23,3 +23,10 @@ Este repositório contém soluções para desafios de programação em JavaScrip
      - Pedra ganha de Tesoura
      - Tesoura ganha de Papel
      - Papel ganha de Pedra
+
+5. **Desenvolver o Jogo da Cobrinha (Snake Game)**
+   - Implementação do clássico jogo da cobrinha utilizando JavaScript e o elemento `<canvas>`.
+   - O jogador controla a cobra usando as setas do teclado para movê-la para cima, baixo, esquerda e direita.
+   - O objetivo é coletar alimentos espalhados pelo mapa, aumentando o tamanho da cobra e a pontuação.
+   - O jogo termina se a cobra colidir com as bordas do canvas ou consigo mesma.
+   - Inclui um sistema de pontuação dinâmico, um menu de game over e a opção de reiniciar o jogo.
